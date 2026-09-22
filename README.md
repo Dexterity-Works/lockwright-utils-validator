@@ -26,7 +26,7 @@ Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Teth
 
 ## Security Notice
 
-Imports stay `@tetherto/pear-apps-utils-validator`. That npm name is not this fork if you install it from the npm registry.
+The package name is `lockwright-utils-validator`.
 
 ## Installation
 
@@ -39,7 +39,7 @@ npm install git+https://github.com/Dexterity-Works/lockwright-utils-validator.gi
 
 ### String Validation
 ```js
-import { Validator } from '@tetherto/pear-apps-utils-validator';
+import { Validator } from 'lockwright-utils-validator';
 
 const validator = Validator.string().required().minLength(3);
 console.log(validator.validate('')); // Output: "This field is required"

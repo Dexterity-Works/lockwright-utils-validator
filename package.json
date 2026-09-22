@@ -1,5 +1,5 @@
 {
-  "name": "@tetherto/pear-apps-utils-validator",
+  "name": "lockwright-utils-validator",
   "version": "0.0.10",
   "type": "module",
   "description": "A library to validate user input",
